@@ -1,0 +1,55 @@
+/*SETTINGS
+-------------------------------------------------------*/
+@font-face {
+    font-family: 'FuenteF';
+    src: url(../fonts/Macondo-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DS';
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+/*BODY
+--------------------------------------------------------*/
+body{
+    background-color: rgba(2, 0, 0, 0.432);
+    z-index: 1;
+    color: azure;
+}
+
+form{
+    border-style: dotted;
+    padding: 50px;
+    /*padding-left: 50px;*/
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    background-color: rgba(128, 111, 17, 0.856);
+    width: 15%;
+    height: 60%;
+    border-radius: 10%;
+    
+}
+p{
+    z-index: 2;
+}
+
+h1{
+    font-family: 'DS';
+}
+
+label{
+    font-family: 'FuenteF';
+}
+
+img{
+    z-index: 0;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: url(../images/Hogwarts.jpg);
+    background-color: rgba(0, 0, 0, 0.274);
+}

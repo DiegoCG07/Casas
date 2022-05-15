@@ -1,0 +1,44 @@
+/*SETTINGS
+-------------------------------------------------------*/
+@font-face {
+    font-family: 'FuenteF';
+    src: url(../fonts/Macondo-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DS';
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+/*BODY
+--------------------------------------------------------*/
+body{
+    background-color: rgba(146, 18, 18, 0.315);
+    background-image: url(../images/106-1068406_enjoy-some-harry-potter-themed-decorations-with-your.png);
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+form{
+    border-style: dotted;
+    padding: 50px;
+    /*padding-left: 50px;*/
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 15%;
+    height: 60%;
+    border-radius: 10%;
+    
+}
+
+h1{
+    font-family: 'DS';
+}
+
+label{
+    font-family: 'FuenteF';
+}

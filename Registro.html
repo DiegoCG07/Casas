@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="statics/styles/Registro.css">
+</head>
+<body>
+    <form action="dynamics/php/Casas.php">
+       
+        <legend><h1>¡Regístrate!</h1></legend>
+        <label for="Nusuario">
+            Nombre Completo:
+            <br> 
+            <input type="text" id="Nusuario">
+        </label>
+        <br><br>
+        <label for="Apodo">
+            Nombre de Usuario: 
+            <br>
+            <input type="text" id="Apodo">         
+        </label>
+        <br>
+        <br>
+        <label for="Casa">
+                Casa: 
+            <select name="Casas" id="Casa">
+                <option value="Teporingos">Teporingos</option>
+                <option value="Ajolotes">Ajolotes</option>
+                <option value="Halcones">Halcones</option>
+                <option value="VaquitasMarinas">VaquitasMarinas</option>                </select>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+          
+</body>
+</html>
